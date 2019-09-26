@@ -1,0 +1,22 @@
+.navbar {
+    /* based on #FDFCFC */
+    background-color: rgba(253,253,253, .938);
+    box-shadow: 0px 0px 2px grey;
+}
+
+.navbar-brand h3 {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.navbar-brand #logo {
+    max-height: 3rem;
+    margin-right: 0px;
+    display: inline-block;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.navbar-brand .navbar-item {
+    padding-right: 30px;
+}

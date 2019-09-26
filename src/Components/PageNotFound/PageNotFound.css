@@ -1,0 +1,9 @@
+.PageNotFound {
+    height: 85vh;
+    text-align: center;
+    padding: 200px 20px;
+}
+
+.PageNotFound h1 {
+    font-size: 3rem;
+}

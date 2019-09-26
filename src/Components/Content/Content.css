@@ -1,0 +1,57 @@
+#content {
+    font-size: 1.2em;
+}
+
+#content .content {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+#content .content h1 {
+    padding-top: 1.6em !important;
+    margin-top: 0 !important;
+}
+
+#content .content p {
+    line-height: 1.8;
+}
+
+#content .content img {
+    display: block;
+    margin: 40px auto 0 auto;
+    border-radius: 10%;
+}
+
+
+@media screen and (min-width: 1024px) {
+    #content .container, .hero .container {
+        max-width: 700px;
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #content .content {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+}
+
+#content .anchor {
+    position: relative;
+    font-size: .4em;
+    right: -8px;
+    top: -6px;
+}
+
+@media screen and (max-width: 400px) {
+    table {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    table {
+        font-size: .7em;
+    }
+}

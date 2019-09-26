@@ -1,0 +1,26 @@
+.hero {
+    font-family: 'Comfortaa', 'cursive';
+}
+
+.title {
+    font-size: 3.9rem;
+    padding-top: 61px;
+    padding-bottom: 30px;
+    color: #FDFCFC !important;
+    font-weight: 700;
+
+}
+
+.subtitle {
+    font-size: 2rem;
+    color: #FDFCFC !important;
+}
+
+@media screen and (max-width: 450px) {
+    .title {
+        font-size: 3rem;
+    }
+    .subtitle {
+        font-size: 1.6rem;
+    }
+}
